@@ -9,6 +9,9 @@ module.exports = {
     },
     "upload": {
       "target": "temporary-public-storage"
+      // "target": 'filesystem',
+      // "outputDir": './lhci-test',
+      // "reportFilenamePattern": '%%PATHNAME%%-%%DATETIME%%-test.%%EXTENSION%%'
     },
     "assert": {
       "categories:performance": ["warn", { "minScore": 0.9 }],
