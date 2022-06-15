@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       {/*{process.env.REACT_APP_name}*/}
-      Test lighthouse
+      Test lighthouse ci test 중입니다~~
     </div>
   );
 }
